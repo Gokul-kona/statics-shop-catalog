@@ -4,27 +4,131 @@
     "version": "c86a22db"
   },
   "products": [
-    { "id": "prod-c86a22db-001", "name": "Smartphone X", "category": "electronics", "price": 699.99, "stock": 20, "rating": 4.5 },
-    { "id": "prod-c86a22db-002", "name": "Laptop Pro", "category": "electronics", "price": 1299.50, "stock": 15, "rating": 4.7 },
-    { "id": "prod-c86a22db-003", "name": "Wireless Earbuds", "category": "electronics", "price": 149.99, "stock": 50, "rating": 4.4 },
-    { "id": "prod-c86a22db-004", "name": "Smart Watch", "category": "electronics", "price": 199.99, "stock": 40, "rating": 4.3 },
-    { "id": "prod-c86a22db-005", "name": "Gaming Console", "category": "electronics", "price": 499.99, "stock": 18, "rating": 4.8 },
-    { "id": "prod-c86a22db-006", "name": "Bluetooth Speaker", "category": "electronics", "price": 89.99, "stock": 60, "rating": 4.2 },
-    { "id": "prod-c86a22db-007", "name": "4K Monitor", "category": "electronics", "price": 349.99, "stock": 25, "rating": 4.6 },
-
-    { "id": "prod-c86a22db-008", "name": "Office Chair", "category": "furniture", "price": 149.99, "stock": 30, "rating": 4.1 },
-    { "id": "prod-c86a22db-009", "name": "Wooden Desk", "category": "furniture", "price": 299.99, "stock": 12, "rating": 4.2 },
-    { "id": "prod-c86a22db-0010", "name": "Table Lamp", "category": "home", "price": 39.99, "stock": 80, "rating": 4.0 },
-    { "id": "prod-c86a22db-0011", "name": "Cookware Set", "category": "home", "price": 89.99, "stock": 45, "rating": 4.3 },
-    { "id": "prod-c86a22db-0012", "name": "Running Shoes", "category": "fashion", "price": 119.99, "stock": 35, "rating": 4.5 },
-    { "id": "prod-c86a22db-0013", "name": "Backpack", "category": "fashion", "price": 59.99, "stock": 70, "rating": 4.4 },
-    { "id": "prod-c86a22db-0014", "name": "Water Bottle", "category": "sports", "price": 19.99, "stock": 100, "rating": 4.1 },
-    { "id": "prod-c86a22db-0015", "name": "Yoga Mat", "category": "sports", "price": 29.99, "stock": 90, "rating": 4.2 }
+    {
+      "id": "prod-c86a22db-001",
+      "name": "Pro Item 1",
+      "category": "books",
+      "price": 88.95,
+      "stock": 33,
+      "rating": 1.5
+    },
+    {
+      "id": "prod-c86a22db-002",
+      "name": "Premium Item 2",
+      "category": "electronics",
+      "price": 57.67,
+      "stock": 135,
+      "rating": 4.8
+    },
+    {
+      "id": "prod-c86a22db-003",
+      "name": "Pro Item 3",
+      "category": "electronics",
+      "price": 110.94,
+      "stock": 179,
+      "rating": 3.2
+    },
+    {
+      "id": "prod-c86a22db-004",
+      "name": "Basic Item 4",
+      "category": "electronics",
+      "price": 188.12,
+      "stock": 150,
+      "rating": 1.7
+    },
+    {
+      "id": "prod-c86a22db-005",
+      "name": "Basic Item 5",
+      "category": "sports",
+      "price": 425.53,
+      "stock": 115,
+      "rating": 4
+    },
+    {
+      "id": "prod-c86a22db-006",
+      "name": "Basic Item 6",
+      "category": "books",
+      "price": 75.97,
+      "stock": 171,
+      "rating": 1.5
+    },
+    {
+      "id": "prod-c86a22db-007",
+      "name": "Standard Item 7",
+      "category": "sports",
+      "price": 207.28,
+      "stock": 2,
+      "rating": 1.4
+    },
+    {
+      "id": "prod-c86a22db-008",
+      "name": "Premium Item 8",
+      "category": "electronics",
+      "price": 269.71,
+      "stock": 15,
+      "rating": 2.3
+    },
+    {
+      "id": "prod-c86a22db-009",
+      "name": "Elite Item 9",
+      "category": "electronics",
+      "price": 246.4,
+      "stock": 35,
+      "rating": 2.2
+    },
+    {
+      "id": "prod-c86a22db-010",
+      "name": "Premium Item 10",
+      "category": "home",
+      "price": 108.36,
+      "stock": 185,
+      "rating": 3
+    },
+    {
+      "id": "prod-c86a22db-011",
+      "name": "Pro Item 11",
+      "category": "sports",
+      "price": 371.68,
+      "stock": 61,
+      "rating": 1
+    },
+    {
+      "id": "prod-c86a22db-012",
+      "name": "Premium Item 12",
+      "category": "clothing",
+      "price": 69.06,
+      "stock": 189,
+      "rating": 2.9
+    },
+    {
+      "id": "prod-c86a22db-013",
+      "name": "Elite Item 13",
+      "category": "electronics",
+      "price": 220,
+      "stock": 163,
+      "rating": 4
+    },
+    {
+      "id": "prod-c86a22db-014",
+      "name": "Standard Item 14",
+      "category": "home",
+      "price": 483.82,
+      "stock": 23,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-c86a22db-015",
+      "name": "Basic Item 15",
+      "category": "electronics",
+      "price": 37.36,
+      "stock": 102,
+      "rating": 1.9
+    }
   ],
   "aggregations": {
     "electronics": {
       "count": 7,
-      "inventoryValue": 72140.37
+      "inventoryValue": 108202.08
     }
   }
 }
