@@ -7,7 +7,7 @@
     {
       "id": "prod-c86a22db-001",
       "name": "Pro Item 1",
-      "category": "home",
+      "category": "books",
       "price": 88.95,
       "stock": 33,
       "rating": 1.5
